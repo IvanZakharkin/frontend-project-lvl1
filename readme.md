@@ -6,3 +6,6 @@
 
 Аксинема по brain-even:
 [![asciicast](https://asciinema.org/a/XwQAjEn07LMnsGrLgxFnfbWlt.svg)](https://asciinema.org/a/XwQAjEn07LMnsGrLgxFnfbWlt)
+
+Аксинема по brain-calc:
+[![asciicast](https://asciinema.org/a/v2YlukTZlax5fHdsJ1wjdCebd.svg)](https://asciinema.org/a/v2YlukTZlax5fHdsJ1wjdCebd)
