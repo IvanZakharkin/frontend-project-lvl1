@@ -9,3 +9,6 @@
 
 Аксинема по brain-calc:
 [![asciicast](https://asciinema.org/a/v2YlukTZlax5fHdsJ1wjdCebd.svg)](https://asciinema.org/a/v2YlukTZlax5fHdsJ1wjdCebd)
+
+Аксинема по brain-gcd:
+[![asciicast](https://asciinema.org/a/eyJ84SRiPhZjmN4ES2DAi8j2q.svg)](https://asciinema.org/a/eyJ84SRiPhZjmN4ES2DAi8j2q)
