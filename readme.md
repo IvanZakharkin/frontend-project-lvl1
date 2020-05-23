@@ -12,3 +12,6 @@
 
 Аксинема по brain-gcd:
 [![asciicast](https://asciinema.org/a/eyJ84SRiPhZjmN4ES2DAi8j2q.svg)](https://asciinema.org/a/eyJ84SRiPhZjmN4ES2DAi8j2q)
+
+Аксинема по brain-progression:
+[![asciicast](https://asciinema.org/a/eJSUgqV2iCMcy6MIhdaNsG5J6.svg)](https://asciinema.org/a/eJSUgqV2iCMcy6MIhdaNsG5J6)
