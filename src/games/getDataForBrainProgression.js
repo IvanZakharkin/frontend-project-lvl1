@@ -1,4 +1,4 @@
-import getProgressionAndHiddenEl from './getProgressionAndHiddenEl.js';
+import getProgressionAndHiddenEl from '../getProgressionAndHiddenEl.js';
 
 
 const getDataForBrainGcd = () => {

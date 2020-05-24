@@ -15,3 +15,6 @@
 
 Аксинема по brain-progression:
 [![asciicast](https://asciinema.org/a/eJSUgqV2iCMcy6MIhdaNsG5J6.svg)](https://asciinema.org/a/eJSUgqV2iCMcy6MIhdaNsG5J6)
+
+Аксинема по brain-prime:
+[![asciicast](https://asciinema.org/a/vSbBqr5eWSzVby4QmrSqry3UN.svg)](https://asciinema.org/a/vSbBqr5eWSzVby4QmrSqry3UN)

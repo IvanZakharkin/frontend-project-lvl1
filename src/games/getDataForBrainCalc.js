@@ -1,5 +1,5 @@
-import getRandomIntNum from './getRandomIntNum.js';
-import calc from './calc.js';
+import getRandomIntNum from '../getRandomIntNum.js';
+import calc from '../calc.js';
 
 const getDataForBrainCalc = () => {
   const desk = 'What is the result of the expression?';

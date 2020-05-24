@@ -1,6 +1,6 @@
 {
   "name": "frontend-project-lvl1",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "package for frontend-project-lvl1",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,11 @@
   "homepage": "https://github.com/IvanZakharkin/frontend-project-lvl1#readme",
   "type": "module",
   "bin": {
-    "brain-calc": "bin/games/brain-calc.js",
-    "brain-even": "bin/games/brain-even.js",
-    "brain-gcd": "bin/games/brain-gcd.js",
-    "brain-progression": "bin/games/brain-progression.js"
+    "brain-calc": "bin/brain-calc.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "devDependencies": {
     "eslint": "^7.0.0",

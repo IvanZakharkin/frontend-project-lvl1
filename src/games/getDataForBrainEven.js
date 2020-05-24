@@ -1,5 +1,5 @@
-import getRandomIntNum from './getRandomIntNum.js';
-import isEven from './isEven.js';
+import getRandomIntNum from '../getRandomIntNum.js';
+import isEven from '../isEven.js';
 
 const getDataForBrainEven = () => {
   const desk = 'Answer "yes" if the number is even, otherwise answer "no".';

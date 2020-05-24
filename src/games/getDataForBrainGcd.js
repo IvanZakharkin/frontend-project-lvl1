@@ -1,5 +1,5 @@
-import getRandomIntNum from './getRandomIntNum.js';
-import gcd from './gcd.js';
+import getRandomIntNum from '../getRandomIntNum.js';
+import gcd from '../gcd.js';
 
 const getDataForBrainGcd = () => {
   const desk = 'Find the greatest common divisor of given numbers.';
