@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import getDataForBrainCalc from '../src/games/getDataForBrainCalc.js';
+import { getDescription, getRoundData } from '../src/games/getDataForBrainCalc.js';
 import engine from '../src/index.js';
 
-engine(getDataForBrainCalc);
+engine(getDescription(), getRoundData);

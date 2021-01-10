@@ -9,4 +9,7 @@ extends:
 
 env:
   node: true
-  browser: true
+  es2020: true
+
+parserOptions:
+  ecmaVersion: 11

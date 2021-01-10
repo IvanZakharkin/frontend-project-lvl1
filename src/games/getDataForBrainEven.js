@@ -1,11 +1,13 @@
-import getRandomIntNum from '../getRandomIntNum.js';
-import isEven from '../isEven.js';
+import getRandomIntNum from '../utils.js';
 
-const getDataForBrainEven = () => {
-  const desk = 'Answer "yes" if the number is even, otherwise answer "no".';
-  const randomNum = getRandomIntNum();
-  const answer = isEven(randomNum) ? 'yes' : 'no';
-  return [desk, [randomNum, answer]];
+const isEven = (num) => (num % 2 === 0);
+
+const getDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const getRoundData = () => {
+  const question = getRandomIntNum();
+  const answer = isEven(question) ? 'yes' : 'no';
+  return [question, answer];
 };
 
-export default getDataForBrainEven;
+export { getDescription, getRoundData };

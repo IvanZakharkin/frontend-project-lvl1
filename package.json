@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/IvanZakharkin/frontend-project-lvl1#readme",
   "type": "module",
+  "keywords": [
+    "js-games", 
+    "brain-calc", 
+    "brain-even", 
+    "brain-gcd", 
+    "brain-prime", 
+    "brain-progression"
+  ],
   "bin": {
     "brain-calc": "bin/brain-calc.js",
     "brain-even": "bin/brain-even.js",
@@ -30,7 +38,6 @@
     "eslint-plugin-import": "^2.20.2"
   },
   "dependencies": {
-    "@hexlet/pairs": "^1.0.14",
     "readline-sync": "^1.4.10"
   }
 }

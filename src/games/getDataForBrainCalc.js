@@ -1,15 +1,27 @@
-import getRandomIntNum from '../getRandomIntNum.js';
-import calc from '../calc.js';
+import getRandomIntNum from '../utils.js';
 
-const getDataForBrainCalc = () => {
-  const desk = 'What is the result of the expression?';
+const calc = (a, b, operation) => {
+  switch (operation) {
+    default:
+    case '+':
+      return a + b;
+    case '-':
+      return a - b;
+    case '*':
+      return a * b;
+  }
+};
+
+const getDescription = () => 'What is the result of the expression?';
+
+const getRoundData = () => {
   const firstNum = getRandomIntNum();
   const secondNum = getRandomIntNum();
   const operations = ['+', '-', '*'];
   const randomOperation = operations[getRandomIntNum(0, 2)];
   const question = `${firstNum} ${randomOperation} ${secondNum}`;
   const answer = calc(firstNum, secondNum, randomOperation).toString();
-  return [desk, [question, answer]];
+  return [question, answer];
 };
 
-export default getDataForBrainCalc;
+export { getDescription, getRoundData };
